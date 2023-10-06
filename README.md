@@ -1,6 +1,6 @@
 # programming
 
-Aplicacion
+# Aplicacion
 
 from datetime import date
 from dateutil.relativedelta import datetime.now() # type: ignore
@@ -10,17 +10,17 @@ relativedelta = months = 1
 now = now + relativedelta(months=1, weeks=1, hour=10) # type: ignore
 
 print(now)
-Copia de seguridad 
+# Copia de seguridad 
 
 # import sys
 
-# print(sys.argv)
-# print(sys.argv[0]) 
-# print(sys.argv[1])
+ print(sys.argv)
+ print(sys.argv[0]) 
+ print(sys.argv[1])
 
-# print("Welcome to the greeter program")
-# name = input("Enter your name: ")
-# print("Greetings " + name)
+ print("Welcome to the greeter program")
+ name = input("Enter your name: ")
+ print("Greetings " + name)
 
 # print("calculator program")
 first_number = input("first number: ")
@@ -29,23 +29,23 @@ second_number = input("second number: ")
 print(int(first_number) + int(second_number))
 
 # Creación de un entorno virtual
-# python -m venv env
-# /env
-#   /include
-#   /lib
-#   /Scripts
-# /env
-# /src
-#   program.py
+ python -m venv env
+ /env
+   /include
+   /lib
+   /Scripts
+ /env
+ /src
+   program.py
 
 # Active el entorno virtual
-# C:\ .. \env\Scripts\activate
-# (env) -> path/to/project
-# pip install python-dateutil
-# /env
-#   /lib
-#     /dateutil
-# path/to/project
+ C:\ .. \env\Scripts\activate
+ (env) -> path/to/project
+ pip install python-dateutil
+ /env
+   /lib
+     /dateutil
+path/to/project
 
 Cadenas
 
@@ -67,18 +67,18 @@ fact = "The Moon has no atmosphere."
 two_facts = fact + "No sound can be heard on the Moon."
 print(two_facts)
 
-#Acerca del uso de comillas 
+# Acerca del uso de comillas 
 moon_radius = "The Moon has a radius of 1,080 miles."
 
 'The "near side" is the part of the Moon that faces the Earth.'
 
 "We only see about 60% of the Moon's surface."
 
-# 'We only see about 60% of the Moon's surface.'
-#   File "<stdin>", line 1
-#     'We only see about 60% of the Moon's surface.'
-#                                        ^
-# SyntaxError: invalid syntax
+ 'We only see about 60% of the Moon's surface.'
+   File "<stdin>", line 1
+     'We only see about 60% of the Moon's surface.'
+                                        ^
+ SyntaxError: invalid syntax
 
 """We only see about 60% of the Moon's surface, this is known as the "near side"."""
 
@@ -130,8 +130,6 @@ print("The Moon And The Earth".upper())
 
 # Comprobación del contenido
 
-Fechas
-
 # Fechas
 
 from datetime import date
@@ -142,14 +140,12 @@ print(date.today())
 
 print("Today's date is: ", date.today())
 
-# print("Today's date is: " + date.today())
+print("Today's date is: " + date.today())
 
 print("Today's date is: " + str(date.today()))
 
-Hola
+# Hola
 print('hola mundo')
-
-Operadores
 
 # Operadores
 
@@ -179,18 +175,17 @@ x /= 2 # 2 dividido de 2 es 1
 
 x *= 2 # 2 multiplicado de 2 es 4
 
-Programa
+# Programa
 
-# program.py
+ program.py
 
 sum = 1 + 2
 print(sum)
 
 print('show this in the console')
 
-Tipos de datos
+# Tipos de datos
 
-# Tipos de datos 
 planets_in_solar_system = 8 # int, pluto used to be the 9th planet, but is too small
 distance_to_alpha_centauri = 4.367 # float, lightyears
 can_liftoff = True
@@ -198,19 +193,19 @@ shuttle_landed_on_the_moon = "Apollo 11" #string
 distance_to_alpha_centauri = 4.367 # looks like a float
 type(distance_to_alpha_centauri) ## <class 'float'>
 
-uso de if, else y elif
-# Uso de if
+# uso de if, else y elif
+Uso de if
 a = 97
 b = 100
-# test expression
+ test expression
 if a < b:
     # statement to be run
     print(b)
 
 # Escritura de instrucciones if
 
-# if test_expression
-# statement(s) to be run
+ if test_expression
+ statement(s) to be run
 a = 93
 b = 27
 if a >= b:
@@ -222,7 +217,8 @@ if a <= 0:
     print(a)
 print(b)
 
-# Uso de else
+Uso de else
+
 a = 27
 b = 93
 if a >= b:
@@ -230,12 +226,13 @@ if a >= b:
 else:
     print(b)
 
-# if test_expression:
+ if test_expression:
     # statement(s) to be run
-# else:
+ else:
     # statement(s) to be run
 
-# Uso de elif
+ Uso de elif
+ 
 a = 27
 b = 93
 if a <= b:
@@ -243,12 +240,12 @@ if a <= b:
 elif a == b:
     print("a is equal to b")
 
-# if test_expression:
-#     # statement(s) to be run
-# elif test_expression:
-#     # statement(s) to be run
+ if test_expression:
+     # statement(s) to be run
+ elif test_expression:
+     # statement(s) to be run
 
-#Combinación de instrucciones if, elif y else 
+# Combinación de instrucciones if, elif y else 
 
 a = 27
 b = 93
@@ -259,14 +256,14 @@ elif a > b:
 else: 
     print ("a is equal to b")
 
-# if test_expression:
-#     # statement(s) to be run
-# elif test_expression:
-#     # statement(s) to be run
-# elif test_expression:
-#     # statement(s) to be run
-# else:
-#     # statement(s) to be run
+ if test_expression:
+     # statement(s) to be run
+ elif test_expression:
+     # statement(s) to be run
+ elif test_expression:
+     # statement(s) to be run
+ else:
+     # statement(s) to be run
 
 # Uso de lógica condicional añadida 
 
@@ -283,40 +280,40 @@ elif a == b:
 else:
     print ("a is less than b")
 
-# if test_expression:
-#     # statement(s) to be run
-#     if test_expression:
-#         # statement(s) to be run
-#     else: 
-#         # statement(s) to be run
-# elif test_expression:
-#     # statement(s) to be run
-#     if test_expression:
-#         # statement(s) to be run
-#     else: 
-#         # statement(s) to be run
-# else:
-#     # statement(s) to be run
+ if test_expression:
+     # statement(s) to be run
+     if test_expression:
+         # statement(s) to be run
+     else: 
+         # statement(s) to be run
+ elif test_expression:
+     # statement(s) to be run
+     if test_expression:
+         # statement(s) to be run
+     else: 
+         # statement(s) to be run
+ else:
+     # statement(s) to be run
 
 # Operadores booleanos 
 
-# Operador or
+ Operador or
 
 a = 23
 b = 34
 if a == 34 or b == 34:
     print(a + b)
 
-# Operador and
+ Operador and
 
 a = 23
 b = 34
 if a == 34 and b == 34:
     print (a + b)
 
-# Diferencia entre and y or 
+ Diferencia entre and y or 
 
-# Tabla de verdad para and 
+ Tabla de verdad para and 
 
 # subexpression1        # Operador                # subexpression2       # Resultado
 # True                    and                       True                   True
@@ -332,9 +329,8 @@ if a == 34 and b == 34:
 # False                   or                        True                   True
 # False                   or                        False                  False
 
-Variables
-
 # Variables
+
 sum = 1 + 2 # 3
 product = sum * 2
 print(product)
