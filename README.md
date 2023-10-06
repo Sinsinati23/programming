@@ -10,6 +10,7 @@ relativedelta = months = 1
 now = now + relativedelta(months=1, weeks=1, hour=10) # type: ignore
 
 print(now)
+
 # Copia de seguridad 
 
  import sys
@@ -29,6 +30,7 @@ second_number = input("second number: ")
 print(int(first_number) + int(second_number))
 
 # Creación de un entorno virtual
+
  python -m venv env
  /env
    /include
@@ -39,6 +41,7 @@ print(int(first_number) + int(second_number))
    program.py
 
 # Active el entorno virtual
+
  C:\ .. \env\Scripts\activate
  (env) -> path/to/project
  pip install python-dateutil
@@ -47,14 +50,14 @@ print(int(first_number) + int(second_number))
      /dateutil
 path/to/project
 
-Cadenas
+# Cadenas
 
-# Cadena simple
+ Cadena simple
 
 fact = "The Moon has no atmosphere."
 print(fact)
 
-# Inmutabilidad de cadenas
+Inmutabilidad de cadenas
 
 fact = "The Moon has no atmosphere."
 fact = "No sound can be heard on the Moon."
@@ -68,6 +71,7 @@ two_facts = fact + "No sound can be heard on the Moon."
 print(two_facts)
 
 # Acerca del uso de comillas 
+
 moon_radius = "The Moon has a radius of 1,080 miles."
 
 'The "near side" is the part of the Moon that faces the Earth.'
@@ -222,7 +226,7 @@ shuttle_landed_on_the_moon = "Apollo 11" #string
 distance_to_alpha_centauri = 4.367 # looks like a float
 type(distance_to_alpha_centauri) ## <class 'float'>
 
-# uso de if, else y elif
+# Uso de if, else y elif
 Uso de if
 a = 97
 b = 100
