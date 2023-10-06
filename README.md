@@ -12,7 +12,7 @@ now = now + relativedelta(months=1, weeks=1, hour=10) # type: ignore
 print(now)
 # Copia de seguridad 
 
-# import sys
+ import sys
 
  print(sys.argv)
  print(sys.argv[0]) 
@@ -22,10 +22,10 @@ print(now)
  name = input("Enter your name: ")
  print("Greetings " + name)
 
-# print("calculator program")
+ print("calculator program")
 first_number = input("first number: ")
 second_number = input("second number: ")
-# print(first_number + second_number)
+ print(first_number + second_number)
 print(int(first_number) + int(second_number))
 
 # Creación de un entorno virtual
@@ -315,19 +315,19 @@ if a == 34 and b == 34:
 
  Tabla de verdad para and 
 
-# subexpression1        # Operador                # subexpression2       # Resultado
-# True                    and                       True                   True
-# True                    and                       False                  False
-# False                   and                       True                   False
-# False                   and                       False                  False
+ subexpression1         Operador                 subexpression2        Resultado
+ True                    and                       True                   True
+ True                    and                       False                  False
+ False                   and                       True                   False
+ False                   and                       False                  False
 
-# Tabla de verdad para or 
+ Tabla de verdad para or 
 
-# subexpression1        # Operador                # subexpression2       # Resultado
-# True                    or                        True                   True
-# True                    or                        False                  True
-# False                   or                        True                   True
-# False                   or                        False                  False
+ subexpression1         Operador                 subexpression2        Resultado
+ True                    or                        True                   True
+ True                    or                        False                  True
+ False                   or                        True                   True
+ False                   or                        False                  False
 
 # Variables
 
